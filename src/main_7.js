@@ -1,8 +1,11 @@
 const fs = require("fs");
+const path=require('path');
 const parser = require("@babel/parser");
 const traverse = require("@babel/traverse").default;
 const generator = require("@babel/generator").default;
 const t = require("@babel/types");
+
+
 
 function deobfuscateCode(code) {
   const ast = parser.parse(code, {
@@ -89,22 +92,50 @@ function deobfuscateCode(code) {
   return generator(ast, { compact: false }).code;
 }
 
-function writeOutputWithIncrement(baseName, code) {
-  let counter = 1;
-  let outputFileName = `${baseName}_${counter}.js`;
 
-  while (fs.existsSync(outputFileName)) {
-    counter++;
-    outputFileName = `${baseName}_${counter}.js`;
+
+function writeOutputWithIncrement(baseName, code) 
+{
+  try 
+  {
+    // Added logging to track directory path
+    const outDir = path.join(__dirname, '..', 'out'); 
+    console.log('Output directory:', outDir); 
+    
+    // Create the output directory if it doesn't exist
+    if (!fs.existsSync(outDir))
+      fs.mkdirSync(outDir);
+
+    // file index
+    let counter = 0;
+    let outputFileName = path.join(outDir, `${baseName}_${counter}.js`);
+
+    // Increment the counter if file already exists
+    while (fs.existsSync(outputFileName)) 
+    {
+      counter++;
+      outputFileName = path.join(outDir, `${baseName}_${counter}.js`);
+    }
+  
+    // Write the code to the output file
+    fs.writeFileSync(outputFileName, code);
+    return outputFileName;
+  }
+  catch (error) 
+  {
+    console.log("ERROR: ", error); 
+    process.exit(-1);
   }
 
-  fs.writeFileSync(outputFileName, code);
-  return outputFileName;
 }
 
-function processFile(inputFile) {
-  try {
-    if (!fs.existsSync(inputFile)) {
+
+function processFile(inputFile) 
+{
+  try 
+  {
+    if (!fs.existsSync(inputFile)) 
+    {
       console.error(`Error: Input file '${inputFile}' not found.`);
       return;
     }
@@ -114,17 +145,26 @@ function processFile(inputFile) {
 
     const outputFileName = writeOutputWithIncrement("output", deobfuscatedCode);
     console.log(`Deobfuscation complete! Output written to '${outputFileName}'.`);
-  } catch (err) {
+  
+  } 
+  catch (err) 
+  {
     console.error("An error occurred:", err.message);
   }
+
 }
 
-if (require.main === module) {
+if (require.main === module) 
+{
   const inputFile = process.argv[2];
-  if (!inputFile) {
+  if (!inputFile) 
+  {
     console.error("Usage: node deobfuscator.js <input_file>");
     process.exit(1);
   }
 
   processFile(inputFile);
+
 }
+
+
