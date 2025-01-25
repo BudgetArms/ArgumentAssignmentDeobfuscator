@@ -1,6 +1,13 @@
 "use strict";
 var Array1, Array2, Function9, index1, Function5, index6, Function6, index7, index0, Function7;
 
+
+function Function20()
+{
+    Function20 = function () {};
+}
+
+
 function Function1(Array1)
 {
     var Array2 = 'CpXAiS:ax]IuPD#5;0kvs1HEQlV*2ZfoF%UJ)7KWLh_+|Rr(NbT,Y>B}<d@e~^y`Mq6g{9m.?nGc[!/8=tj3w"4&$zO';
@@ -109,7 +116,6 @@ function Function2()
 
 Function20(Function9 = Function2() || {}, index1 = Function9.TextDecoder, Function5 = Function9.Uint8Array, index6 = Function9.Buffer, Function6 = Function9.String || String, 
 index7 = Function9.Array || Array, 
-
 index0 = function ()
 {
     var Array1 = new index7(128) , Array2, Function9;
@@ -465,9 +471,6 @@ function Function20()
 {
     Function20 = function () {};
 }
-
-
-
 
 
 (function ()
