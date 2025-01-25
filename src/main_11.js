@@ -6,63 +6,57 @@ const generator = require("@babel/generator").default;
 const t = require("@babel/types");
 
 
+
+
+
+
 function DeobfuscateCode(code) {
     const ast = parser.parse(code, {
-        sourceType: "script", // 'module' for ES6+ modules
+        sourceType: "script",
     });
 
-    // Step 1: Identify empty functions and single-assignment variables
-    const emptyFunctions = new Set();
-    const variableAssignments = new Map();
-
     traverse(ast, {
-        FunctionDeclaration(path) {
-            if (path.node.body.body.length === 0) {
-                emptyFunctions.add(path.node.id.name);
-            }
-        },
-        VariableDeclarator(path) {
+        // When a variable is assigned to an empty function (e.g. FunctionEmpty)
+        AssignmentExpression(path) {
+            const { left, right } = path.node;
+            // Check if the right side is an empty function call
             if (
-                t.isIdentifier(path.node.id) &&
-                t.isCallExpression(path.node.init) &&
-                t.isIdentifier(path.node.init.callee)
+                t.isCallExpression(right) &&
+                t.isIdentifier(right.callee) &&
+                right.callee.name === "FunctionEmpty" &&
+                right.arguments.length > 0
             ) {
-                // Map variable to the function it calls
-                variableAssignments.set(path.node.id.name, path.node.init.callee.name);
+                // Replace the assignment with the arguments inside the function call
+                const [firstArg, ...restArgs] = right.arguments;
+                if (t.isAssignmentExpression(firstArg)) {
+                    // Deconstruct assignments and place them directly in the code
+                    restArgs.unshift(firstArg); // Push assignments to the front of the arguments list
+                }
+
+                // Remove the FunctionEmpty assignment, now replaced with direct assignments
+                path.replaceWithMultiple(restArgs); // This will insert the assignment directly into the code
             }
         },
-    });
 
-    // Step 2: Replace empty functions with their argument assignments
-    traverse(ast, {
+        // When we have a call to an empty function
         CallExpression(path) {
-            const calleeName = path.node.callee.name;
-            if (emptyFunctions.has(calleeName)) {
-                // Check if the variable being called is a known variable with a single assignment
-                const assignedVariable = [...variableAssignments.entries()].find(
-                    ([variable, functionName]) => functionName === calleeName
-                );
+            const { callee, arguments: args } = path.node;
 
-                if (assignedVariable) {
-                    const [variable, functionName] = assignedVariable;
-                    const args = path.node.arguments;
-
-                    // Insert assignments in place of the function call
-                    const assignmentStatements = args.map((arg, index) => {
-                        const paramName = `param${index + 1}`;
-                        return t.expressionStatement(
-                            t.assignmentExpression("=", t.identifier(paramName), arg)
-                        );
-                    });
-
-                    path.replaceWithMultiple(assignmentStatements);
-                }
+            // Check if the callee is FunctionEmpty
+            if (t.isIdentifier(callee) && callee.name === "FunctionEmpty") {
+                // Replace the function call with the assignments directly
+                path.replaceWithMultiple(args);
             }
         },
     });
 
     return generator(ast, { compact: false }).code;
 }
+
+
+
+
+
 
 
 function WriteOutputWithIncrement(baseName, code) {
@@ -86,10 +80,11 @@ function WriteOutputWithIncrement(baseName, code) {
         }
 
         fs.writin
-        // Write the code to the output file
+        // Write the code to the output file        fs.writeFileSync(outputFileName, "//\tCreated by BudgetArms \n");
         fs.writeFileSync(outputFileName, "//\tCreated by BudgetArms \n");
-        fs.writeFileSync(outputFileName, `//\tGenerated from File: ${ path.basename(__filename) } \n\n\n`, { flag: 'a' } );
-        fs.writeFileSync(outputFileName, code, { flag: 'a' } );
+        fs.appendFileSync(outputFileName, `//\tGenerated from File: ${ path.basename(__filename) } \n\n\n`);
+        fs.appendFileSync(outputFileName, code);
+        
         return outputFileName;
     }
     catch (error) {

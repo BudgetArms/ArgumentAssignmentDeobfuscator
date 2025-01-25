@@ -1,15 +1,16 @@
+//	Created by BudgetArms 
+//	Generated from File: main_10.js 
+
+
 "use strict";
 
 var g1, g2, g3, g4, g5, g6, g7, g8, g9, g10;
-
 function FunctionEmpty() {
-    FunctionEmpty = function () {};
+  FunctionEmpty = function () {};
 }
-
 function f2(p) {
   var v11 = "CpXAiS:ax]IuPD#5;0kvs1HEQlV*2ZfoF%UJ)7KWLh_+|Rr(NbT,Y>B}<d@e~^y`Mq6g{9m.?nGc[!/8=tj3w\"4&$zO";
   var v12, v13, v14, v15, v16, v17, v18;
-
   FunctionEmpty(v12 = "" + (p || ""), v13 = v12.length, v14 = [], v15 = 0, v16 = 0, v17 = -1);
   for (v18 = 0; v18 < v13; v18++) {
     var v19 = v11.indexOf(v12[v18]);
@@ -37,7 +38,7 @@ function f3(p2) {
   }
   return g1[p2];
 }
-FunctionEmpty(g1 = {}, g2 =["q7C:(jhd*0q=}mF_1BhBWb>E:Mr[kV/Vc{Tx|JdZe#79BlLVzeAZ#d#Y6`7", "YBw>r{&JZ6qbX7mlyELfPyNf+u/tQAQZ/#ro.~+p", "6AXc9t@f&Dp;gK2)^{G>sYAh(<>a_b*ZrdcS+,yfey$Gr@}h9E{V;G:xR#|9C", "ZZ1G=ttZSv^i6t;V~0\"GT,GUZ6LQ=5&LzC", "TVEiptwYtB:D$.^E8#pB5Kphk]A8nQk*\"C", "WV$:+=@=@s^i$3uv9R72d!LP1@_N=54UMe:}x4$GQsf@{A^f", "+UX*r7#)R<8H2esLQry[u}lvCk\"!2iCkrqLbhBSv`PGJgK}J1~}Yn8RJ%]", "Ib;%XtL@hs|9|?&UZ]GFuGsxr>*?e#p0MnZIa)c,mDqYE#,UZZ[S2", "ns4aL`VxtB8u&X`7K~Xc+`|Meu", "|Pm}s.caD1yYY*ak6B:}emphey<", "l+}b$T+d=~KnoKX0*VOx8T0D;6G!&V>*4egVN{0p", "U7>o`8:Q5~9F,@F)%Z)Gf.NMQsCB;*O){y}]<8@4(1[`:S^_5:k?O/~X", "j,t,=G[Y@y$mM*xv=q4Y#Gr@L@ZUp", "g:i!/GSl51~i{38Wx+yY49gEh@N12*:o]PiS", "$_,xG)2kBMI;}jGV~y^i_^5D|<f@`#akZ~/Y6GY=BMr0USyQvB<:4dC", "nN(YJBC", "?<:]oYx@%~&Z)A", "|:J?0ylvr6Y1$A/L", "cy$]Knah;d0:6tWo:P~>x8!p", "B{eF|=0l{]g=WmJox+W]%{#Qo~hnv#tLp~I,[GC", "9nN:!R6=7D6m6mnoeyT,}WpD[<(9H7XQ3:A?Z\"bv>M2yXS", "e{Q]Cw5Dt56kX^Y2*{Q%4[?PM5~", "1]M:u9x)M5Re.@:", "j,<bXN(aM]", "IZ#oBmH@[<p(JT:", "%BMnld6:5~,=N31*abH2]t)XUd]]^)&hAdfof/EJj~G>QA!VdUt:0", "#:4Yse>JA", "roI,:~SvN`?!Qi?kwC", "W+c!q?#)wBT=C", "4q&];TScLsl", "_{f}v.UQ8~eY$5/W:dj>?UXQ4Dh}EV*26UX", "d,AZ7(1adscr=A", "jqC*CWhaJMMm>l\"27PvZHTod55ry_^^J#kwT9~[UF6U*6bksc,w>Q", "wo/ik9.p", "ML)IK{!,xsP@DN\"ho{EfH", "4#&bWjDl>D2DAms2t2C]JcWD$0{!{5EUZr!2Yj;r2q$F&mSodefb6U/@KM&Hp", "4qNbf(TLj5IN/l97pBL,|7(vqd7YK^uKTPQ:<map", "ss7G$dvaC`3!}*#", "LAY!x)4r:Mbu8VtVxro:", "&m(iO3%h[xSDTDf_hV%*iN<LT~B2I7y)+Z|IOn9cUPGplNwU1.1I", "]+H[6G7a_#tm=5dEIbN]9GzdFPjmC", "kL7ogrqpn#)[M?UQ:FIFCGjr:}V9KmnoRyp", "C`Q/r!I@(>jm`*Cf,.Tx`U@rVegxUSgfdsA", "!EWn&Tvp", "r,.:VYRa[<*?vV0V?:C%WJMPVy6!x?Af]G=nR^4rN1d", "z_BoAtqEV0}n??{Kco7a?~c9V#187b!*CiV,`rVY>vO)>;*2AG0ck9P)i", "/,wGC~`Zo5Om\"=42/um}6NGk(1lsQ(#", "Nq}BlYvhOeA?x)!*j#WnArb\"8`|N!)]", "|{xf)<OG{M@bS;q_r7^GsTxf=`,<t)P", "BAlBw[>DZ1", "o{Zam~wLue^2ZNWvL0QBY!?YF]4!dtKk0.,GWn@k8~dFo#{Q", ":.>as3Zvp~:fR;<_:k(n|`MG3vhe%?+l.,=,Ueh(MP", "xdkFGy:r9M&G<)6f@UPGEK%dO#$HV7{KoGEY^?!dt5}`HtOhQp", "L.K}TrIxS", "k5a%gy_rb]u,2erL{yPZXy*Z(>8kp", "$e9}t%Rc~#EAWm3*K]Ka{>nauyP*G9Jl&qp", "6N1iz/[@6d(yujZZx`A", "artB5GY@(1Z0FekLf+eZ![)fNdsU~3SoeLLnq)bh5~juP*5", "Td,>7^88XPyeMA0s?eC*IdS>gPi(@^Afs]K[kK5a55U", "=l]*wRW(}Mc`\"Ng0CrSa+nthey)ImDglz0u!/K)YA", "\"oH}C)[LRuvj>NyZe7!V2", "rPWn$(%t55[iVtq0fdMb=.Ev6BvA_Dx", "!<7[R!A>0kwuPWPv279a>wC", "Wq~}dW#)Ru/i+VD", ".E#}l\"LQ_0tl4ljWZEhfM8E>|0!!8(nlk]hBf", "2+/2Z(*9>DR};e,hZ57Ip8vZ^>f[y997/{k,1Y{P!>SDd;#", "/eH2y~u>p~A]US7QIrFfh`!dRe8l[.`0;~g!V", "X+SI@mTrLq@!ujZJtAr}f/HX}s7[.#a", "B,gGUBi42#=kp", "s`Qnm9=LUvu7p", "UAs!D}D(aIx(P(?KVB}n,rC", ">]hcTrkxZ1t~K^CkhN8B/dOPIe;cp", "U~UZJB3Db6!~(KZE*V,F\"[]v:", "o]/[6rC", ".qlB9?cZoPXB=*\"UYNP}#t[:^<;,3Vz2KEP!(m~kkBp;8#$_cC", "g2wV=yIYi", "\"o]*gNm@Kv7}+XLkAB0:g1[>J6P;8$5C+ZrRGl/YX", "vdwo{rRaD6$PWm2J%LW2?)If~>T=C", "~qZIxt`ECPhae#nl)E+?IdUQOu", "AB`]JJMPn@<FL(Y*:keFI4krA~\"g4K(W`AX", "EdcS\"TQx`x|aC*.Q}BeG7b~fL0>9bbofP+&2UY/P2eK", "4nwZ]8qE*y>`P*X0ZLV*9)_ka", "A6{!`rZ>AMu7(X", "7N,!5}:fB@OVv#PsBNN]", "}qcxfYtav]C.mm^)$#L:V", "v~5YM~*v#eUUCWNU?0[VDt&\"Jvmkm9D*>Blff", "^^K3TMF\"X2j~[A*tlu", "]^FM4xA\"", "XDHyyoB", "A#2LjrRlU2yq\"vU", "E$:[b{GQ[0d", "/,Y`[#q^", "(;%5um0LKp", "R^4juKv+<", "X0DK%", "%P[nY=V", ")5~X?", "CRoXXku", "kpO;)", "ar=])\"C", "6WF14", "\"wSY.%in", ",},Ui+dH", "%kv.H4vH", "#V5(/]<n", "^f^p$cRX", "46^t#?2", "E1jHkH0*H>^q]qnxKFKN]3]Wp0L%=U0!7TE)y", "D)=l)P$ZdGenq#", "ncebK", "ot@]9vT:pWV?X*C", "++LC=o9,R6%vq#", "&H(KX{(X", "vKqz)xSH", "o6Xf", "!u%=~.Yrc81;~x:Ru[{1q.07En.(HxEq^t3J&c7/a}k89x,~243JxTf%%88fVy\"[f+/In#1+ka%s>", ":ApG#1LZ0Vfw#mabAh2fo1(}mRp<jLi#5=Ie7&k+KY+z+2Pa0=u&hvlF[04zZUOFd)NH", "}DL5V0dI=wR", "h|K%Y;LZYl", "(F4[Rx}H", "h|pGo1?SOwm>?hOC", "Y|UzL;DZHh)V`", "Y|UzL;DZ&m:(ys", "A|r5r0fZ*w&(ys", "eEO5A@TXlZj", "66:!;%SitwIw8s", ":ApG#1LZ0Vfw#mabAh2fo1(}mRp<jLi#5=_X;qXX5k}[18DO8b)zX~n", "y#uDZJUwWkn^ZTF@#vdnMJKbTB,SJt*HLFW?8,n9(j7Y|HCg(n<6PbP3$_[=kOQM^P.4YoC", "]$uD$PnwY^M<s>", "<oM5z", "a!5gq:F3KT1/^p53;PZ`L,$.>", ">>(;go\"3)j*Pr>", "rWMH", ")k*1.~F[}]H#.?SCkg+Hr~5b93m;]A9rBCPe%_./j[2%agKnKC71n5b\"TxAJk?(nHchezXb/GS;;in?r", "Srz?9~lo", "Ysp]SVMtSR", "_!bDnK1<p", "XX^+<Vb[5;Oo@;KmO3", "=:Gp", "l80%(16q,r|YX", "#$kK^+{`t$;Sd", "+pShx8+`,TS<X", "ZTSAK(6XuZWJX", "VJ].o~K", "$)^Um", "!g4*m", "Ae7%!s;", "/i:G", ":9i)rAbO", "R+idvswRH", "F+u]", "8V5G)s/b=H`SF3>", "X1$dy0!!8E", "HMSG^`7HVTQYh@!2}V5G", ":pk6D", "LLwSA[H", "}N}eYKi[", "{SlmfAlf", "w>9V!n|V_h(F@", "T>F]zOTn`bFpf", "&bF3mlNf7&BYf", "Y>w]kKA|B++V1u.OKe$6", "jqVksF.{=\"", "Gr8Sdc$Vyzz4YwK/cbgE", "hC4dXxKT}s", "TR8S3ycZ<b)CZ/n~L(fE", "iCod`x9sR", "Tsqi&mKVf)U", "Tsq~yKTE", "Tsq~yKL}<v##f", "hpq~WCgh.", "k+y]\"", "_6_Q@#%)", ".j+Y$6/n", "JJ;NA[/O!8&\"87L", "PPR_z/Ze.B#@Bpx", "5)7.$vSnb9X]5I@BOH", "f|hQ|\"DX&dkyYm", "yFkpe", "~gWC$,]Lo;RPz{=", "ss3=h~$+Hv/,Ym", "fsA9_%22K__MP", "S(}%H]n\"|", "aaT,\"G}I>4[7O4]#[P", "fsA9_%zD", "e1Mg_h9xA[26ovoG^;", "e1Mg_h9xg|", "jGP<$3L", "N49&MC7=+vm6>voGBm?", "%9PY|w/n", "yUg3*$4T?88(X/ho$iAb", "<:G7gF/DTccE3k!vFl=1", "+WnmnN:Xpz#?%k=", "D*ENvoFL[l", "+WnmnN:XHl", "/db:", "x>eNA[\"O#t", "YJAbR", "xB;N*$OOIi", ")t0\"grKX{`tVa2z_`H", "w>_MjfVv<B=?@^V*(YKwo", "hzXu@", "pI).=w[Oq", "eKs)tZz", "Vt_Yi", "!Ay%`Os_NI/ITUK&G+P;iJw#VIVaX88y6}", "THyBHtbF+k&h4P", "ho&l/", "q%hY$G~X385mIdo/^2NA", "f.!:nMp#A", "M1G:HIN"]);
+FunctionEmpty(g1 = {}, g2 = ["q7C:(jhd*0q=}mF_1BhBWb>E:Mr[kV/Vc{Tx|JdZe#79BlLVzeAZ#d#Y6`7", "YBw>r{&JZ6qbX7mlyELfPyNf+u/tQAQZ/#ro.~+p", "6AXc9t@f&Dp;gK2)^{G>sYAh(<>a_b*ZrdcS+,yfey$Gr@}h9E{V;G:xR#|9C", "ZZ1G=ttZSv^i6t;V~0\"GT,GUZ6LQ=5&LzC", "TVEiptwYtB:D$.^E8#pB5Kphk]A8nQk*\"C", "WV$:+=@=@s^i$3uv9R72d!LP1@_N=54UMe:}x4$GQsf@{A^f", "+UX*r7#)R<8H2esLQry[u}lvCk\"!2iCkrqLbhBSv`PGJgK}J1~}Yn8RJ%]", "Ib;%XtL@hs|9|?&UZ]GFuGsxr>*?e#p0MnZIa)c,mDqYE#,UZZ[S2", "ns4aL`VxtB8u&X`7K~Xc+`|Meu", "|Pm}s.caD1yYY*ak6B:}emphey<", "l+}b$T+d=~KnoKX0*VOx8T0D;6G!&V>*4egVN{0p", "U7>o`8:Q5~9F,@F)%Z)Gf.NMQsCB;*O){y}]<8@4(1[`:S^_5:k?O/~X", "j,t,=G[Y@y$mM*xv=q4Y#Gr@L@ZUp", "g:i!/GSl51~i{38Wx+yY49gEh@N12*:o]PiS", "$_,xG)2kBMI;}jGV~y^i_^5D|<f@`#akZ~/Y6GY=BMr0USyQvB<:4dC", "nN(YJBC", "?<:]oYx@%~&Z)A", "|:J?0ylvr6Y1$A/L", "cy$]Knah;d0:6tWo:P~>x8!p", "B{eF|=0l{]g=WmJox+W]%{#Qo~hnv#tLp~I,[GC", "9nN:!R6=7D6m6mnoeyT,}WpD[<(9H7XQ3:A?Z\"bv>M2yXS", "e{Q]Cw5Dt56kX^Y2*{Q%4[?PM5~", "1]M:u9x)M5Re.@:", "j,<bXN(aM]", "IZ#oBmH@[<p(JT:", "%BMnld6:5~,=N31*abH2]t)XUd]]^)&hAdfof/EJj~G>QA!VdUt:0", "#:4Yse>JA", "roI,:~SvN`?!Qi?kwC", "W+c!q?#)wBT=C", "4q&];TScLsl", "_{f}v.UQ8~eY$5/W:dj>?UXQ4Dh}EV*26UX", "d,AZ7(1adscr=A", "jqC*CWhaJMMm>l\"27PvZHTod55ry_^^J#kwT9~[UF6U*6bksc,w>Q", "wo/ik9.p", "ML)IK{!,xsP@DN\"ho{EfH", "4#&bWjDl>D2DAms2t2C]JcWD$0{!{5EUZr!2Yj;r2q$F&mSodefb6U/@KM&Hp", "4qNbFunctionEmpty(TLj5IN/l97pBL,|7(vqd7YK^uKTPQ:<map", "ss7G$dvaC`3!}*#", "LAY!x)4r:Mbu8VtVxro:", "&m(iO3%h[xSDTDf_hV%*iN<LT~B2I7y)+Z|IOn9cUPGplNwU1.1I", "]+H[6G7a_#tm=5dEIbN]9GzdFPjmC", "kL7ogrqpn#)[M?UQ:FIFCGjr:}V9KmnoRyp", "C`Q/r!I@(>jm`*Cf,.Tx`U@rVegxUSgfdsA", "!EWn&Tvp", "r,.:VYRa[<*?vV0V?:C%WJMPVy6!x?Af]G=nR^4rN1d", "z_BoAtqEV0}n??{Kco7a?~c9V#187b!*CiV,`rVY>vO)>;*2AG0ck9P)i", "/,wGC~`Zo5Om\"=42/um}6NGk(1lsQ(#", "Nq}BlYvhOeA?x)!*j#WnArb\"8`|N!)]", "|{xf)<OG{M@bS;q_r7^GsTxf=`,<t)P", "BAlBw[>DZ1", "o{Zam~wLue^2ZNWvL0QBY!?YF]4!dtKk0.,GWn@k8~dFo#{Q", ":.>as3Zvp~:fR;<_:k(n|`MG3vhe%?+l.,=,Ueh(MP", "xdkFGy:r9M&G<)6f@UPGEK%dO#$HV7{KoGEY^?!dt5}`HtOhQp", "L.K}TrIxS", "k5a%gy_rb]u,2erL{yPZXy*Z(>8kp", "$e9}t%Rc~#EAWm3*K]Ka{>nauyP*G9Jl&qp", "6N1iz/[@6d(yujZZx`A", "artB5GY@(1Z0FekLf+eZ![)fNdsU~3SoeLLnq)bh5~juP*5", "Td,>7^88XPyeMA0s?eC*IdS>gPi(@^Afs]K[kK5a55U", "=l]*wRW(}Mc`\"Ng0CrSa+nthey)ImDglz0u!/K)YA", "\"oH}C)[LRuvj>NyZe7!V2", "rPWn$(%t55[iVtq0fdMb=.Ev6BvA_Dx", "!<7[R!A>0kwuPWPv279a>wC", "Wq~}dW#)Ru/i+VD", ".E#}l\"LQ_0tl4ljWZEhfM8E>|0!!8(nlk]hBf", "2+/2Z(*9>DR};e,hZ57Ip8vZ^>f[y997/{k,1Y{P!>SDd;#", "/eH2y~u>p~A]US7QIrFfh`!dRe8l[.`0;~g!V", "X+SI@mTrLq@!ujZJtAr}f/HX}s7[.#a", "B,gGUBi42#=kp", "s`Qnm9=LUvu7p", "UAs!D}D(aIx(P(?KVB}n,rC", ">]hcTrkxZ1t~K^CkhN8B/dOPIe;cp", "U~UZJB3Db6!~(KZE*V,F\"[]v:", "o]/[6rC", ".qlB9?cZoPXB=*\"UYNP}#t[:^<;,3Vz2KEP!(m~kkBp;8#$_cC", "g2wV=yIYi", "\"o]*gNm@Kv7}+XLkAB0:g1[>J6P;8$5C+ZrRGl/YX", "vdwo{rRaD6$PWm2J%LW2?)If~>T=C", "~qZIxt`ECPhae#nl)E+?IdUQOu", "AB`]JJMPn@<FL(Y*:keFI4krA~\"g4K(W`AX", "EdcS\"TQx`x|aC*.Q}BeG7b~fL0>9bbofP+&2UY/P2eK", "4nwZ]8qE*y>`P*X0ZLV*9)_ka", "A6{!`rZ>AMu7(X", "7N,!5}:fB@OVv#PsBNN]", "}qcxfYtav]C.mm^)$#L:V", "v~5YM~*v#eUUCWNU?0[VDt&\"Jvmkm9D*>Blff", "^^K3TMF\"X2j~[A*tlu", "]^FM4xA\"", "XDHyyoB", "A#2LjrRlU2yq\"vU", "E$:[b{GQ[0d", "/,Y`[#q^", "(;%5um0LKp", "R^4juKv+<", "X0DK%", "%P[nY=V", ")5~X?", "CRoXXku", "kpO;)", "ar=])\"C", "6WF14", "\"wSY.%in", ",},Ui+dH", "%kv.H4vH", "#V5(/]<n", "^f^p$cRX", "46^t#?2", "E1jHkH0*H>^q]qnxKFKN]3]Wp0L%=U0!7TE)y", "D)=l)P$ZdGenq#", "ncebK", "ot@]9vT:pWV?X*C", "++LC=o9,R6%vq#", "&H(KX{(X", "vKqz)xSH", "o6Xf", "!u%=~.Yrc81;~x:Ru[{1q.07En.(HxEq^t3J&c7/a}k89x,~243JxTf%%88fVy\"[f+/In#1+ka%s>", ":ApG#1LZ0Vfw#mabAh2fo1(}mRp<jLi#5=Ie7&k+KY+z+2Pa0=u&hvlF[04zZUOFd)NH", "}DL5V0dI=wR", "h|K%Y;LZYl", "(F4[Rx}H", "h|pGo1?SOwm>?hOC", "Y|UzL;DZHh)V`", "Y|UzL;DZ&m:(ys", "A|r5r0fZ*w&(ys", "eEO5A@TXlZj", "66:!;%SitwIw8s", ":ApG#1LZ0Vfw#mabAh2fo1(}mRp<jLi#5=_X;qXX5k}[18DO8b)zX~n", "y#uDZJUwWkn^ZTF@#vdnMJKbTB,SJt*HLFW?8,n9(j7Y|HCg(n<6PbP3$_[=kOQM^P.4YoC", "]$uD$PnwY^M<s>", "<oM5z", "a!5gq:F3KT1/^p53;PZ`L,$.>", ">>(;go\"3)j*Pr>", "rWMH", ")k*1.~F[}]H#.?SCkg+Hr~5b93m;]A9rBCPe%_./j[2%agKnKC71n5b\"TxAJk?(nHchezXb/GS;;in?r", "Srz?9~lo", "Ysp]SVMtSR", "_!bDnK1<p", "XX^+<Vb[5;Oo@;KmO3", "=:Gp", "l80%(16q,r|YX", "#$kK^+{`t$;Sd", "+pShx8+`,TS<X", "ZTSAK(6XuZWJX", "VJ].o~K", "$)^Um", "!g4*m", "Ae7%!s;", "/i:G", ":9i)rAbO", "R+idvswRH", "F+u]", "8V5G)s/b=H`SF3>", "X1$dy0!!8E", "HMSG^`7HVTQYh@!2}V5G", ":pk6D", "LLwSA[H", "}N}eYKi[", "{SlmfAlf", "w>9V!n|V_h(F@", "T>F]zOTn`bFpf", "&bF3mlNf7&BYf", "Y>w]kKA|B++V1u.OKe$6", "jqVksF.{=\"", "Gr8Sdc$Vyzz4YwK/cbgE", "hC4dXxKT}s", "TR8S3ycZ<b)CZ/n~L(fE", "iCod`x9sR", "Tsqi&mKVf)U", "Tsq~yKTE", "Tsq~yKL}<v##f", "hpq~WCgh.", "k+y]\"", "_6_Q@#%)", ".j+Y$6/n", "JJ;NA[/O!8&\"87L", "PPR_z/Ze.B#@Bpx", "5)7.$vSnb9X]5I@BOH", "f|hQ|\"DX&dkyYm", "yFkpe", "~gWC$,]Lo;RPz{=", "ss3=h~$+Hv/,Ym", "fsA9_%22K__MP", "S(}%H]n\"|", "aaT,\"G}I>4[7O4]#[P", "fsA9_%zD", "e1Mg_h9xA[26ovoG^;", "e1Mg_h9xg|", "jGP<$3L", "N49&MC7=+vm6>voGBm?", "%9PY|w/n", "yUg3*$4T?88(X/ho$iAb", "<:G7gF/DTccE3k!vFl=1", "+WnmnN:Xpz#?%k=", "D*ENvoFL[l", "+WnmnN:XHl", "/db:", "x>eNA[\"O#t", "YJAbR", "xB;N*$OOIi", ")t0\"grKX{`tVa2z_`H", "w>_MjfVv<B=?@^V*(YKwo", "hzXu@", "pI).=w[Oq", "eKs)tZz", "Vt_Yi", "!Ay%`Os_NI/ITUK&G+P;iJw#VIVaX88y6}", "THyBHtbF+k&h4P", "ho&l/", "q%hY$G~X385mIdo/^2NA", "f.!:nMp#A", "M1G:HIN"]);
 function f4() {
   var v20 = [function () {
     return globalThis;
@@ -69,9 +70,7 @@ function f4() {
   }
   return v21 || this;
 }
-
-FunctionEmpty(g3 = f4() || {}, g4 = g3.TextDecoder, g5 = g3.Uint8Array, g6 = g3.Buffer, g7 = g3.String || String, g8 = g3.Array || Array,
-g9 = function () {
+FunctionEmpty(g3 = f4() || {}, g4 = g3.TextDecoder, g5 = g3.Uint8Array, g6 = g3.Buffer, g7 = g3.String || String, g8 = g3.Array || Array, g9 = function () {
   var v25 = new g8(128);
   var v26;
   var v27;
@@ -88,7 +87,6 @@ g9 = function () {
     return v27.join("");
   };
 }());
-
 function f5(p4) {
   if (typeof g4 !== "undefined" && g4) {
     return new g4().decode(new g5(p4));
@@ -98,7 +96,6 @@ function f5(p4) {
     return g9(p4);
   }
 }
-
 function f6() {}
 function f7(p5, p6 = 1) {
   function Function5(p7) {
@@ -143,7 +140,6 @@ function f7(p5, p6 = 1) {
   });
   return p5;
 }
-
 g10 = this && this[f3(90)] || function (p9, p10, p11, p12) {
   function Function6(p13, p14, p15, p16) {
     if (!p16) {
@@ -374,14 +370,12 @@ g10 = this && this[f3(90)] || function (p9, p10, p11, p12) {
   });
 };
 
-
 // Start function
 (function () {
   console.log("START FUNCTION");
   var v86;
   var v87;
-  function _Function4(p35) 
-  {
+  function _Function4(p35) {
     var v88 = "KHn)QqjhNUbXLAWJtVasicCgTFImEROYDZkePoSdBfGlrpyM^x/w(*>|={<&78}_,9\";]6#!?~[23.+1z%$v4u@5`:0";
     var v89;
     var v90;
@@ -411,7 +405,6 @@ g10 = this && this[f3(90)] || function (p9, p10, p11, p12) {
     }
     return f5(v91);
   }
-
   function f21(p36) {
     if (typeof g1[p36] === "undefined") {
       return g1[p36] = _Function4(g2[p36]);
